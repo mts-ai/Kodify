@@ -63,9 +63,11 @@ Kodify представляет собой LLM и плагин, встраива
 
 1. Скачайте последнюю версию плагина Kodify для Visual Studio Code. Ссылку для скачивания предоставит сотрудник МТС ИИ.
 2. Перейдите в раздел **"Extensions"** на левой панели инструментов.
+   
    <img src="images_user_guide/extensions.png" width="512" height="370">
 
 3. В диалоговом меню выберите пункт **"Install from VSIX…"** и укажите скачанный файл плагина.
+   
    <img src="images_user_guide/install-from-vsix.png" width="1240" height="250">
 
  ## Установка плагина в среде JetBrains
@@ -73,9 +75,11 @@ Kodify представляет собой LLM и плагин, встраива
 1. Скачайте последнюю версию плагина Kodify для JetBrains. Ссылку для скачивания предоставит сотрудник МТС ИИ.
 2. Запустите IDE и перейдите в настройки IDE.
 3. Напишите в поиске plugins или выберите пункт "Plugins" для перехода в настройку плагинов.
+   
    <img src="images_user_guide/pycharm_plugins.png">
 
 4. Нажмите на шестеренку в правом верхнем углу и выберите **"Install Plugin from Disk…"**.
+   
    <img src="images_user_guide/install-plugin-from-disk.png">
 
 5. Выберите скачанный файл с плагином.
@@ -89,9 +93,11 @@ Kodify представляет собой LLM и плагин, встраива
   - в JetBrains - **"CTRL+ J"** (**"CMD + J"** на Mac).
 
     На следующем скриншоте показана боковая панель "Kodify" в Visual Studio Code.
+    
     <img src="images_user_guide/vscode-kodify-panel.png">   
 
     Боковая панель "Kodify" в JetBrains выглядит следующим образом:    
+    
     <img src="images_user_guide/jetbrains-kodify-panel.png">
 
 3. Откройте конфигурационный файл *config.json* одним из следующих способов:
@@ -99,17 +105,21 @@ Kodify представляет собой LLM и плагин, встраива
    **Способ 1**
 
    На боковой панели Kodify нажмите на кнопку **"Open Settings"** в Visual Studio Code
+   
    <img src="images_user_guide/vscode-open-settings-button.png"> 
 
    или **"Kodify Сonfig"** в JetBrains.
+   
    <img src="images_user_guide/jetbrains-kodify-config-button.png"> 
    
-   В разделе Configuration для Chat настроек нажмите кнопку **"Open Config File"**.   
+   В разделе Configuration для Chat настроек нажмите кнопку **"Open Config File"**.
+   
    <img src="images_user_guide/open-config-file-button.png"> 
 
    **Способ 2**
 
    На боковой панели, раскройте меню Kodify и нажмите на кнопку **"Open Settings"** (шестеренка).
+   
    <img src="images_user_guide/kodify-open-settings-button.png"> 
   
    > После установки плагина Kodify, в IDE JetBrains могут быть неактивны кнопки открытия конфигурационного файла *config.json*. Для изменения состояния этих кнопок, переключите фокус с IDE, нажав **"Alt+Tab"**. Затем, верните фокус обратно в IDE. Нажмите снова **"Alt+Tab"**.
@@ -139,9 +149,11 @@ Kodify представляет собой LLM и плагин, встраива
 
 1. Откройте любой файл с Python-кодом или иным языком программирования.
 2. Поставьте курсор, например, после **"for i in range(len(x)):"** (смотрите скриншот ниже) и нажмите **ENTER**. Kodify предложит вариант дополнения кода.
+   
    <img src="images_user_guide/autocompletion-code-suggestion.png">
 
 3. Нажмите **TAB**, чтобы принять предложенное дополнение кода.
+   
    <img src="images_user_guide/autocompletion-code-applied.png"> 
 
 4. Если требуется продолжить автодополнение, нажмите **ENTER** еще раз и повторите шаг 3.
@@ -169,20 +181,26 @@ Kodify помогает разработчикам получить справо
   Также, вместо использования одного из преднастроенных вариантов, вы можете самостоятельно описать те действия, которые Kodify должен будет произвести с выделенной частью кода.
 
 3. Выберите нужный вам вариант или опишите собственный и нажмите на кнопку отправки или **ENTER**.
+  
    <img src="images_user_guide/kodify-send-request.png">
 
    После отправки пользователем соответствующего запроса, Kodify выдаст ответ. 
 
    На следующем скриншоте показан фрагмент ответа на вариант **"/explain  (rus)"**:
+   
    <img src="images_user_guide/kodify-explain-function.png" >
 
 Вы можете применить вариант от Kodify, используя следующие кнопки (действия) на панели с вариантом:
 - **Apply** - применяет вариант от Kodify к выделенному коду.
+   
    <img src="images_user_guide/fix-apply-action.png">
+
 - **Insert at cursor** - применяет вариант от Kodify к месту в коде, где стоит курсор. 
 - **Copy** - копирует вариант от Kodify в буфер.
 - **Delete** - удаляет вариант от Kodify.
+  
    <img src="images_user_guide/fix-delete-action.png">
+
 - **Helpful** и **Unhelpful** - помечают предложенный вариант как лайк или дизлайк.
 
 ### Вызов функции "Объяснение кода" через меню "Quick Fix"
