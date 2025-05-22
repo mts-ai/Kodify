@@ -80,7 +80,7 @@ Kodify представляет собой LLM и плагин, встраива
 
 4. Нажмите на шестеренку в правом верхнем углу и выберите **"Install Plugin from Disk…"**.
    
-   <img src="images_user_guide/install-plugin-from-disk.png">
+   <img src="images_user_guide/install-plugin-from-disk.png" width="500" height=350>
 
 5. Выберите скачанный файл с плагином.
 6. Подтвердите перезагрузку IDE после установки. Нажмите **"Restart IDE"**.
