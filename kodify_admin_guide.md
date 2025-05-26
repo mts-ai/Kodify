@@ -136,7 +136,7 @@ Kodify предоставляет REST API (API сервер), к котором
 
 Также проверьте заполнение *docker-compose* файла. Все переменные должны быть заполнены как на скриншоте ниже. Редактировать можно только переменную *ports*, если вы хотите указать иной адрес для приложения.
 
-<img src="images_admin_guide/docker-compose-example.png">
+<img src="images_admin_guide/docker-compose-example.png" width=400 height=270>
 
 > Файл *config.yml* необходимо добавить в директорию /opt/mtsai, которую перед этим нужно создать.
 Вы также можете указать путь до *config.yml* в текущей директории:<br>
@@ -144,7 +144,7 @@ volumes: <br> ./config.yml:/vllm-workspace/config.yml
 
 При использовании пользовательской авторизации (ENV-переменная  `MTSAI_AUTH=true` и `AUTH_TYPE=DB`), вы можете развернуть базу данных PostgreSQL (работает на версии 16.4, но нет жестких требований к версии) одновременно с сервисом, используя Docker Compose. Для этого добавьте в *docker-compose.yml* сервис базы данных:
 
-<img src="images_admin_guide/db-docker-compose.png">
+<img src="images_admin_guide/db-docker-compose.png" width=350 height=220>
 
 > Volume (mtsai_pgdata) обеспечивает сохранность данных базы между перезапусками контейнера. Данные будут храниться в директории `/var/lib/postgresql/data` внутри контейнера и будут доступны после остановки и удаления контейнера.
 
