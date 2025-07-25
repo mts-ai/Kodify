@@ -74,24 +74,25 @@ Kodify представляет собой LLM и плагин, встраива
 1. Скачайте последнюю версию плагина Kodify для Visual Studio Code. Ссылку для скачивания предоставит сотрудник MWS AI.
 2. Перейдите в раздел **"Extensions"** на левой панели инструментов.
    
-   <img src="images_user_guide/extensions.png" width="512" height="370">
-
+   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/extensions.png)
+   
 3. В диалоговом меню выберите пункт **"Install from VSIX…"** и укажите скачанный файл плагина.
    
-   <img src="images_user_guide/install-from-vsix.png" width="1240" height="250">
-
+   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/install-from-vsix.png)
+   
  ## 3.2 Установка плагина в среде JetBrains
 
 1. Скачайте последнюю версию плагина Kodify для JetBrains. Ссылку для скачивания предоставит сотрудник MWS AI.
 2. Запустите IDE и перейдите в настройки IDE.
 3. Напишите в поиске plugins или выберите пункт "Plugins" для перехода в настройку плагинов.
    
-   <img src="images_user_guide/pycharm_plugins.png">
+    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/pycharm_plugins.png)
 
+  
 4. Нажмите на шестеренку в правом верхнем углу и выберите **"Install Plugin from Disk…"**.
    
-   <img src="images_user_guide/install-plugin-from-disk.png" width="500" height=350>
-
+   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/install-plugin-from-disk.png)
+   
 5. Выберите скачанный файл с плагином.
 6. Подтвердите перезагрузку IDE после установки. Нажмите **"Restart IDE"**.
 
@@ -104,34 +105,36 @@ Kodify представляет собой LLM и плагин, встраива
 
     На следующем скриншоте показана боковая панель "Kodify" в Visual Studio Code.
     
-    <img src="images_user_guide/vscode-kodify-panel.png">   
-
+     ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/vscode-kodify-panel.png)
+    
     Боковая панель "Kodify" в JetBrains выглядит следующим образом:    
     
-    <img src="images_user_guide/jetbrains-kodify-panel.png">
-
+     ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/jetbrains-kodify-panel.png)
+    
 3. Откройте конфигурационный файл *config.json* одним из следующих способов:
 
    **Способ 1**
 
    На боковой панели Kodify нажмите на кнопку **"Open Settings"** в Visual Studio Code
    
-   <img src="images_user_guide/vscode-open-settings-button.png"> 
-
+    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/vscode-open-settings-button.png)
+   
    или **"Kodify Сonfig"** в JetBrains.
    
-   <img src="images_user_guide/jetbrains-kodify-config-button.png"> 
+   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/jetbrains-kodify-config-button.png)
+
    
    В разделе Configuration для Chat настроек нажмите кнопку **"Open Config File"**.
    
-   <img src="images_user_guide/open-config-file-button.png"> 
-
+    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/open-config-file-button.png)
+   
+   
    **Способ 2**
 
    На боковой панели, раскройте меню Kodify и нажмите на кнопку **"Open Settings"** (шестеренка).
    
-   <img src="images_user_guide/kodify-open-settings-button.png"> 
-  
+    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/kodify-open-settings-button.png)
+       
    > После установки плагина Kodify, в IDE JetBrains могут быть неактивны кнопки открытия конфигурационного файла *config.json*. Для изменения состояния этих кнопок, переключите фокус с IDE, нажав **"Alt+Tab"**. Затем, верните фокус обратно в IDE. Нажмите снова **"Alt+Tab"**.
 
 4. Заполните конфигурационный файл *config.json*.
@@ -161,11 +164,11 @@ Kodify представляет собой LLM и плагин, встраива
 1. Откройте любой файл с Python-кодом или иным языком программирования.
 2. Поставьте курсор, например, после **"for i in range(len(x)):"** (смотрите скриншот ниже) и нажмите **ENTER**. Kodify предложит вариант дополнения кода.
    
-   <img src="images_user_guide/autocompletion-code-suggestion.png">
-
+   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/autocompletion-code-suggestion.png)
+   
 3. Нажмите **TAB**, чтобы принять предложенное дополнение кода.
    
-   <img src="images_user_guide/autocompletion-code-applied.png"> 
+    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/autocompletion-code-applied.png)     
 
 4. Если требуется продолжить автодополнение, нажмите **ENTER** еще раз и повторите шаг 3.
 
@@ -179,39 +182,39 @@ Kodify помогает разработчикам получить справо
 - в Visual Studio Code - **"Ctrl+L"** для Windows или **"CMD + L"** для Mac;
 - в JetBrains - **"Ctrl+J"** для Windows или **"CMD + J"** для Mac.
 
-  <img src="images_user_guide/vscode-select-code.png">
-
+  ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/vscode-select-code.png)     
+  
 2. В открывшемся окне введите знак **"/"**. Появятся доступные варианты:
 - **/docs** - добавляет docstring к выделенной части кода;
 - **/test** - генерирует Unit-test к выделенной части кода;
 - **/fix** - ищет и исправляет ошибки в выделенной части кода;
 - **/explain (rus)** - объясняет что делает код на русском языке.
 
-  <img src="images_user_guide/plugin-functions.png">
-
+  ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/plugin-functions.png)     
+  
   Также, вместо использования одного из преднастроенных вариантов, вы можете самостоятельно описать те действия, которые Kodify должен будет произвести с выделенной частью кода.
 
 3. Выберите нужный вам вариант или опишите собственный и нажмите на кнопку отправки или **ENTER**.
   
-   <img src="images_user_guide/kodify-send-request.png">
-
+   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/kodify-send-request.png)   
+      
    После отправки пользователем соответствующего запроса, Kodify выдаст ответ. 
 
    На следующем скриншоте показан фрагмент ответа на вариант **"/explain  (rus)"**:
    
-   <img src="images_user_guide/kodify-explain-function.png" >
-
+    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/kodify-explain-function.png)
+    
 Вы можете применить вариант от Kodify, используя следующие кнопки (действия) на панели с вариантом:
 - **Apply** - применяет вариант от Kodify к выделенному коду.
    
-   <img src="images_user_guide/fix-apply-action.png">
-
+    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/fix-apply-action.png)
+   
 - **Insert at cursor** - применяет вариант от Kodify к месту в коде, где стоит курсор. 
 - **Copy** - копирует вариант от Kodify в буфер.
 - **Delete** - удаляет вариант от Kodify.
   
-   <img src="images_user_guide/fix-delete-action.png">
-
+    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/fix-delete-action.png)
+   
 - **Helpful** и **Unhelpful** - помечают предложенный вариант как лайк или дизлайк.
 
 ### 4.2.1 Вызов функции "Объяснение кода" через меню "Quick Fix"
@@ -221,11 +224,12 @@ Kodify помогает разработчикам получить справо
 2. Откройте меню "Quick Fix" через комбинацию **"Ctrl+."** или кликните на символ "лампа" в редакторе кода.
 3. Выберите пункт **"Ask Kodify"**.
 
-<img src="images_user_guide/quick-fix-ask-kodify.png">
+    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/quick-fix-ask-kodify.png)
 
-Kodify выдаст ответ по выбранной части кода.
+   Kodify выдаст ответ по выбранной части кода.
 
-<img src="images_user_guide/ask-kodify-answer.png">
+   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/ask-kodify-answer.png)
+
 
 ### 4.2.2 Вызов функций Kodify через контекстное меню для Visual Studio Code
 
@@ -238,7 +242,8 @@ Kodify выдаст ответ по выбранной части кода.
 - Добавление Docstring для кода;
 - Добавление комментариев для кода.
 
-<img src="images_user_guide/vscode-kodify-context-menu.png">
+![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/vscode-kodify-context-menu.png)
+
 
 ## 4.3 Функция редактирования кода
 
@@ -252,18 +257,18 @@ Kodify позволяет вам изменить код, не покидая ф
 2. Опишите какие изменения Kodify следует внести в код.
 Например, "Add error handling". Затем, нажмите **ENTER** или, после запроса, нажмите кнопку отправки.  
 
-   <img src="images_user_guide/add-error-handling.png">
-
+   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/add-error-handling.png)
+   
 3. Kodify проанализирует код и выделит фрагменты для его изменения.
 
-   <img src="images_user_guide/kodify-code-analysis.png">
-
+   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/kodify-code-analysis.png)
+   
 4. Примите или отклоните предложение от Kodify по изменению кода. 
 
    Для принятия или отклонения конкретного выделенного фрагмента кода, нажмите **"Accept"** или **"Reject"** в редакторе кода.
 
    Для применения выбора ко всем фрагментам кода, нажмите **"Accept"** или **"Reject"** на панели Edit Mode в Visual Studio Code или **"Accept All"**/**"Reject All"** в JetBrains.
 
-   <img src="images_user_guide/accept-reject-suggestion.png">
-   
+   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/accept-reject-suggestion.png)
+      
 Kodify применит изменение к выделенному коду.
