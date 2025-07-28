@@ -80,7 +80,8 @@ Kodify представляет собой LLM и плагин, встраива
    
    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/install-from-vsix.png)
    
- ## 3.2 Установка плагина в среде JetBrains
+
+## 3.2 Установка плагина в среде JetBrains
 
 1. Скачайте последнюю версию плагина Kodify для JetBrains. Ссылку для скачивания предоставит сотрудник MWS AI.
 2. Запустите IDE и перейдите в настройки IDE.
