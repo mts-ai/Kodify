@@ -81,22 +81,27 @@ Kodify представляет собой LLM и плагин, встраива
    
    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/install-from-vsix_new.png)
    
+4. В открывшемся окне укажите скачанный файл плагина и нажмите **Install**.
+
+   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/install-from-vsix-window.png)
+
 
 ## Установка плагина в среде JetBrains
 
 1. Скачайте последнюю версию плагина Kodify для JetBrains. Ссылку для скачивания предоставит сотрудник MWS AI.
-2. Запустите IDE и перейдите в настройки IDE.
-3. Напишите в поиске plugins или выберите пункт "Plugins" для перехода в настройку плагинов.
+2. Запустите IDE и перейдите в настройки.
+3. Выберите пункт "Plugins", чтобы перейти к настройке плагинов.
    
-    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/pycharm_plugins.png)
+    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/pycharm_plugins_new.png)
 
   
 4. Нажмите на шестеренку в правом верхнем углу и выберите **"Install Plugin from Disk…"**.
    
-   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/install-plugin-from-disk.png)
+   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/install-plugin-from-disk_new.png)
    
-5. Выберите скачанный файл с плагином.
-6. Подтвердите перезагрузку IDE после установки. Нажмите **"Restart IDE"**.
+5. Выберите скачанный файл плагина в диалоговом окне и нажмите **OK**.
+
+   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/choose-plugin-file.png)
 
 ## Настройка плагина в средах Visual Studio Code и JetBrains
 
