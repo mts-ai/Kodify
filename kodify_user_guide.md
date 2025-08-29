@@ -103,6 +103,7 @@ Kodify представляет собой LLM и плагин, встраива
 
    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/choose-plugin-file.png)
 
+
 ## Настройка плагина в средах Visual Studio Code и JetBrains
 
 1. Откройте в IDE любой файл.
