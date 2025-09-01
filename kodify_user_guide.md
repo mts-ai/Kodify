@@ -112,14 +112,14 @@ Kodify представляет собой LLM и плагин, встраива
   - в JetBrains - **"CTRL+ J"** (**"CMD + J"** на Mac).
 
     
-   На следующем скриншоте показана боковая панель "Kodify" в Visual Studio Code.
+    На следующем скриншоте показана боковая панель "Kodify" в Visual Studio Code.
 
-   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/vscode-kodify-panel_new.png)
+    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/vscode-kodify-panel_new.png)
     
         
-   Боковая панель "Kodify" в JetBrains выглядит следующим образом:    
+    Боковая панель "Kodify" в JetBrains выглядит следующим образом:    
     
-   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/jetbrains-kodify-panel_new.png)
+    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/jetbrains-kodify-panel_new.png)
     
 3. Откройте конфигурационный файл *config.json*.
 
