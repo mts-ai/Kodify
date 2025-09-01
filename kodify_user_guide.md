@@ -180,7 +180,7 @@ Kodify помогает разработчикам получить справо
   
 2. В открывшемся окне вы увидите добавленный код, выделенный в редакторе кода. Введите знак "/" в текстовое поле ввода. Появятся доступные варианты:
   
-  ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/plugin-functions_new.png)   
+   ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/plugin-functions_new.png)   
 
 - **/test**  — генерирует Unit-test к выделенной части кода;
    
@@ -233,6 +233,7 @@ Kodify помогает разработчикам получить справо
    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/generate-rule-wizard.png)
    
    После выбора типа правила в визарде нажмите "Generate".
+
    В окне "Your rule" уточните значения в полях "Rule Name", "Rule Type", "Rule Content" и нажмите "Continue" для создания правила.
  
    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/your-rule-window.png)
@@ -246,10 +247,10 @@ Kodify помогает разработчикам получить справо
     ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/fix-apply-action_new.png)
    
 - **Insert Code** — применяет вариант от Kodify в то место в коде, где находится курсор.
-- **Copy Code/Copy** - копирует вариант от Kodify в буфер обмена.
+- **Copy Code/Copy** — копирует вариант от Kodify в буфер обмена.
 - **Create File** — создает файл с кодом. 
 - **Run** — запускает код.
-- **Delete** - удаляет вариант от Kodify.
+- **Delete** — удаляет вариант от Kodify.
 - **Helpful** и **Unhelpful** — помечают предложенный вариант как полезный или бесполезный (соответственно, лайк или дизлайк).
 
    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/copy-code-delete-actions.png)
@@ -287,7 +288,7 @@ Kodify помогает разработчикам получить справо
   
    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/add-selected-code.png)
 
-- **Редактирование выделенного кода**.
+- **Редактирование выделенного кода**. Смотрите следующий раздел.
 - **Исправление кода**. Находит ошибки в выделенном коде и предлагает вариант исправления.
    
    ![](https://raw.githubusercontent.com/mts-ai/kodify/main/images_user_guide/code-correction.png)
